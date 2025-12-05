@@ -12,6 +12,9 @@
 /.next/
 /out/
 
+# compiled scripts
+/dist-scripts/
+
 # production
 /build
 
@@ -32,4 +35,4 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
+# next-env.d.ts - Next.js lo genera automáticamente, pero debe estar en el repo

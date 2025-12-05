@@ -741,4 +741,5 @@ const simulator = new GameSimulator();
 const results = simulator.runSimulation(100);
 simulator.printReport(results);
 
-export { GameSimulator, SimulationResults, GameStats };
+export { GameSimulator };
+export type { SimulationResults, GameStats };
