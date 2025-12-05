@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020"],
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "types": ["node"],
+    "noEmit": false,
+    "outDir": "./dist-scripts",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  },
+  "include": ["scripts/**/*", "lib/**/*", "types/**/*", "scripts/global-types.d.ts"],
+  "exclude": ["node_modules", "app", "components", "hooks", "dist-scripts"]
+}
+

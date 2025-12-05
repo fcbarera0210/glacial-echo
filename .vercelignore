@@ -1,0 +1,8 @@
+node_modules
+.next
+.git
+*.md
+doc.md
+index.html
+INSTRUCCIONES-GIT.md
+
